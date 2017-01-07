@@ -1335,7 +1335,16 @@ const data: Category[] = [{
       type: 'kug',
       tags: ['Korea']
     }]
-  }]
+  }, {
+     name: 'Australia',
+     links: [{
+       name: 'Brisbane Kotlin User Group',
+       desc: 'Australia',
+       href: 'https://www.meetup.com/Brisbane-Kotlin-User-Group/',
+       type: 'kug',
+       tags: ['Australia']
+     }]
+   }]
 }];
 
 export const links = [...data, ...articlesLinks];
